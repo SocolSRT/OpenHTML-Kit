@@ -1,0 +1,130 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1, h2, h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #0056b3;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+ul, ol {
+  margin-left: 20px;
+  color: #555;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+form {
+  margin: 20px 0;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #444;
+}
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+input:focus, textarea:focus, select:focus {
+  border-color: #007bff;
+}
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #0056b3;
+}
+video, audio {
+  max-width: 100%;
+  display: block;
+  margin: 10px 0;
+}
+.animated-box {
+  width: 100px;
+  height: 100px;
+  background-color: #ff6b6b;
+  animation: bounceAnimation 1.5s infinite;
+}
+@keyframes bounceAnimation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+.accordion-button {
+  background-color: #f5f5f5;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+.special-paragraph {
+  font-style: italic;
+  color: #777;
+  margin-bottom: 15px;
+}
+.social-icons .icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #007bff;
+  margin-right: 10px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+.social-icons .icon:hover {
+  background-color: #0056b3;
+}

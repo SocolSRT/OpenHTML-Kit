@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: #333;
+}
+p {
+  color: #666;
+}
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+ul, ol {
+  list-style-type: disc;
+  color: #777;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+form {
+  margin: 10px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+}

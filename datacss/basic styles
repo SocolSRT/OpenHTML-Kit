@@ -1,0 +1,104 @@
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 18px;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+ul, ol {
+  margin-left: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+form {
+  margin: 20px 0;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+video, audio {
+  max-width: 100%;
+}
+strong, em, del {
+  font-style: italic;
+}
+progress, input[type="range"] {
+  width: 100%;
+}
+.animated-box {
+  width: 100px;
+  height: 100px;
+  background-color: #007bff;
+  animation: myAnimation 2s infinite;
+}
+@keyframes myAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.accordion-button {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+.special-paragraph {
+  font-style: italic;
+  color: #555;
+}
+.social-icons .icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #007bff;
+  margin-right: 10px;
+}
