@@ -286,11 +286,6 @@ elements.forEach((item) => {
 }
 function openPreviewWindow() {
   const html = document.getElementById("generatedHTML").value;
-  const userCSS = document.getElementById("userCSS").value;
-  const selectedCSS = document.getElementById("selectedCSS").value;
-  const pageTitle = document.getElementById("pageTitle").value;
-  const pageDescription = document.getElementById("pageDescription").value;
-  const pageKeywords = document.getElementById("pageKeywords").value;
   const previewWindow = window.open('', '_blank');
   previewWindow.document.open();
   previewWindow.document.write(html);
