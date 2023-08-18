@@ -293,27 +293,7 @@ function openPreviewWindow() {
   const pageKeywords = document.getElementById("pageKeywords").value;
   const previewWindow = window.open('', '_blank');
   previewWindow.document.open();
-  previewWindow.document.write(`
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>${pageTitle}</title>
-      <meta name="description" content="${pageDescription}">
-	  <meta name="keywords" content="${pageKeywords}">
-      <style>
-        ${userCSS}
-      </style>
-      <style>
-        ${selectedCSS}
-      </style>
-    </head>
-    <body>
-      ${html}
-    </body>
-    </html>
-  `);
+  previewWindow.document.write(html);
   previewWindow.document.close();
 }
   function deleteElement(element) {
