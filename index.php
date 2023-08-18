@@ -271,6 +271,7 @@ function generateHTML() {
   html += `<meta name="description" content="${pageDescription}">\n`;
   html += `<meta name="keywords" content="${pageKeywords}">\n`;
   html += `<style>\n${document.getElementById("userCSS").value}\n</style>\n`;
+  html += "</head>\n<body>\n";
 elements.forEach((item) => {
   const { content, alignment, width, height, background, backimage } = item;
   const alignmentStyle = alignment ? `text-align: ${alignment};` : '';
@@ -280,7 +281,7 @@ elements.forEach((item) => {
   const backimageAttribute = backimage ? `background-image: url('${backimage}');background-size: cover;background-repeat: no-repeat;background-position: center center;` : '';
   html += `<div style="${alignmentStyle} ${widthAttribute} ${heightAttribute} ${backgroundAttribute} ${backimageAttribute}">${content}</div>\n`;
 });
-  html += "</head>\n<body>\n</body>\n</html>";
+  html += "</body>\n</html>";
   document.getElementById("generatedHTML").value = html;
 }
 function openPreviewWindow() {
