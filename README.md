@@ -2,8 +2,6 @@
 
 OpenHTML-Kit is a straightforward and open-source online HTML website builder designed for users with basic web development knowledge. Built using a combination of PHP, JavaScript, and HTML, OpenHTML-Kit empowers users to create and customize their own web pages without the need for advanced coding skills. This user-friendly tool provides a minimalistic interface that focuses on essential website elements, making it perfect for beginners looking to establish a web presence.
 
-Demo: https://builder.lumindns.com/
-
 # Key Features:
 
 - Intuitive Interface: OpenHTML-Kit offers a user-friendly interface, allowing users to effortlessly arrange and customize webpage elements. This interface requires no prior coding experience, making it accessible to a wide range of users.
